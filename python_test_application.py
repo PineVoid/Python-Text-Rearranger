@@ -1,8 +1,8 @@
 # A code word scrambler, made by Jacob Gray. My first real Python project, so don't expect it to be too good! Finished on 8/31/18. In total, I worked on it over the course of about 5 days. Took about 6 to 8 hours total.
 
 while 1 > 0:
-    baseText=input(str("Insert mix-matched text here."))
-    numberSkip= int(input("Insert the amount of characters skipped here."))
+    baseText=input(str("Insert mix-matched text here: "))
+    numberSkip= int(input("Insert the amount of characters skipped here: "))
     baseTextLength= int(len(baseText))
     characterNumber= 0
     offset = 0
@@ -16,5 +16,5 @@ while 1 > 0:
         characterNumber = characterNumber + 1
     print("Your new text is " + "".join(translatedText))    # joins the list of characters that have been reassigned
     print("")
-    input("Hit enter to input another number.")	
+    input("Hit enter to input another number: ")
     print("")
